@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+background-color: rgba(39, 68, 105, 0.76);
+}
+
+h1{
+ font-size: 1.6em;
+ margin-bottom: 10px;
+ font-weight: bolder;
+ color: rgba(5, 4, 4, 0.7);
+animation-delay:   0.9s;
+animation: bource;
+animation-duration: 1s;
+transition-duration: infinite;
+}
+
+
+
+main {
+    text-align: center;
+    position: relative;
+    top: 85px;
+}
+
+
+form {
+    border-radius: 07px;
+    box-shadow: 4px 4px 7px 0px rgb(77 84 139);
+    background-color: rgba(255, 255, 255, 0.952);
+    padding: 30px;
+    display: inline-block;
+
+}
+
+
+input {
+animation-duration: 1s;
+border: 1px solid  rgba(29, 27, 27, 0.425);
+padding: 06px;
+margin-top: 10px;
+background-color: rgba(240, 248, 255, 0.705);
+color: rgb(6, 6, 7);
+}
+
+
+#login{
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+
+}
+
+a {
+    text-decoration: none;
+   line-height: 30px;
+   color: rgba(0, 0, 0, 0.671);
+   animation: bource;
+   animation-duration: 1s;
+   transition-duration: infinite;
+}
+
+a:hover{
+    animation-duration: 1s;
+    text-decoration: underline;
+    color: rgb(55, 55, 100);
+}
+
+#div{
+    color: rgba(211, 30, 30, 0.61);
+    margin: 0px;
+    padding: 0px;
+}
